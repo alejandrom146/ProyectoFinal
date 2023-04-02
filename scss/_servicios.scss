@@ -1,0 +1,38 @@
+.body1 {
+    background-image: url(../assets/img/body1.jpg);
+  }
+  
+  .servicio {
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+  
+  .icono img {
+    width: 70vh;
+    height: 40vh;
+    border-radius: 25%;
+    padding: 25px;
+    filter: grayscale(100%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  
+    &:hover {
+      transform: scale(1);
+      filter: grayscale(0%);
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+  }
+  
+ 

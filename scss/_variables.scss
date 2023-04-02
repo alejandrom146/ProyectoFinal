@@ -1,0 +1,17 @@
+$color-letra:whitesmoke;
+$color-letra1:orange;
+$color-caja:black;
+$color-background:rgb(32, 11, 11);
+$color-background-gradient: linear-gradient(90deg, rgba(32, 11, 11, 1) 36%, rgba(14, 46, 48, 1) 80%);
+
+@mixin caja {
+    width: 15%;
+    height: 30px;
+    transition: all 1s;
+    border-radius: 10%;
+}
+@mixin cajahover {
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+}

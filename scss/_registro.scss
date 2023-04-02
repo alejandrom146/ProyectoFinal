@@ -1,0 +1,85 @@
+.main1 {
+    background-image: url(/assets/img/body2.jpg);
+    background-position: center;
+    width: 100%;
+  
+    h1 {
+      padding-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .form {
+    height: 70vh;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background: $color-background;
+    background: $color-background-gradient;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px $color-caja;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: $color-letra;
+  }
+  
+  input {
+    &[type="text"], &[type="email"], &[type="password"], &[type="tel"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: $color-letra;
+      color: #333333;
+    }
+  
+    &[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: #076280b7;
+      color: $color-letra;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+  
+      &:hover {
+        background-color: #07b5ef;
+      }
+    }
+  }
+  
+  .boton-volver {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #06c;
+    cursor: pointer;
+    text-decoration: none;
+  
+    &:hover {
+      color: #07b5ef;
+    }
+  }    
+  .aref {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  
+    a {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $color-letra;
+      border-radius: 10%;
+      padding: 10px 10px;
+    }
+  }
+  
+  

@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Trispace', sans-serif;
+    background-color: rgba(30, 29, 29, 0.762);
+    background-image: url(../assets/img/body.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .producto {
+    @include caja;
+  
+    &:hover {
+      background-image: url(../assets/img/producto.jpg);
+    @include cajahover;
+    }
+  }
+  
+  .producto1 {
+    @include caja;
+  
+    &:hover {
+      background-image: url(../assets/img/servicios.jpg);
+      @include cajahover;
+    }
+  }
+  
+  .producto2 {
+    @include caja;
+  
+    &:hover {
+      background-image: url(../assets/img/registrate.jpg);
+      @include cajahover;
+    }
+  }
+  
+  .producto3 {
+    @include caja;
+  
+    &:hover {
+      background-image: url(../assets/img/redes.jpeg);
+      @include cajahover;
+    }
+  }
+  
+  .producto4 {
+    @include caja;
+  
+    &:hover {
+      background-image: url(../assets/img/inicio.jpg);
+      @include cajahover;
+    }
+  }
+ 
+  .logo {
+    cursor: pointer;
+    width: 80px;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    color:$color-letra;
+    font-size: 1.6rem;
+    text-decoration: solid;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .card-title, h5 {
+    color: $color-letra1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  p {
+    font-family: 'Oswald', sans-serif;
+    color: $color-letra;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .color {
+    color: black;
+    background-color: rgba(255, 255, 0, 0.579);
+    margin: 10px;
+  }
+  
+  .color1 {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.656);
+    margin: 10px;
+  }
+  
+  .color2 {
+    background-color: $color-caja;
+  }
+  
+  .footer {
+    background-color: $color-caja;
+  }
+  
+  .buttons {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+  
+    a {
+      text-decoration: none;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      transition: all .4s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+  }
+  
+  li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: $color-letra;
+  
+    &:hover {
+      text-decoration: none;
+      color: $color-letra1;
+    }
+  }
+  footer {
+    background: $color-background;
+    background: $color-background-gradient;
+    color: $color-letra;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }  
+  .redes-sociales {
+    flex: 1 1 300px;
+    margin-right: 2rem;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+  
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    a {
+      font-size: 24px;
+      color: inherit;
+      border: 1px solid #ccc;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0 8px;
+      opacity: 0.75;
+      transition: all 0.2s;
+  
+      &:hover {
+        opacity: 0.9;
+        width: 45px;
+        height: 41px;
+      }
+    }
+  }
+  .frases-motivacion {
+    flex: 300px;
+    margin-right: 2rem;
+    margin: 10px;
+  
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  }
+  
+  .mapa {
+    flex: 1 1 500px;
+  
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }

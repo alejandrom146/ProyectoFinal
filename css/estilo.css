@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Trispace&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Trispace', sans-serif;
+  background-color: rgba(30, 29, 29, 0.762);
+  background-image: url(../assets/img/body.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto {
+  width: 15%;
+  height: 30px;
+  transition: all 1s;
+  border-radius: 10%; }
+  .producto:hover {
+    background-image: url(../assets/img/producto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80px; }
+
+.producto1 {
+  width: 15%;
+  height: 30px;
+  transition: all 1s;
+  border-radius: 10%; }
+  .producto1:hover {
+    background-image: url(../assets/img/servicios.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80px; }
+
+.producto2 {
+  width: 15%;
+  height: 30px;
+  transition: all 1s;
+  border-radius: 10%; }
+  .producto2:hover {
+    background-image: url(../assets/img/registrate.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80px; }
+
+.producto3 {
+  width: 15%;
+  height: 30px;
+  transition: all 1s;
+  border-radius: 10%; }
+  .producto3:hover {
+    background-image: url(../assets/img/redes.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 80px; }
+
+.producto4 {
+  width: 15%;
+  height: 30px;
+  transition: all 1s;
+  border-radius: 10%; }
+  .producto4:hover {
+    background-image: url(../assets/img/inicio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80px; }
+
+.logo {
+  cursor: pointer;
+  width: 80px;
+  margin: 0; }
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+  font-size: 1.6rem;
+  text-decoration: solid;
+  text-transform: uppercase;
+  text-align: center; }
+
+.card-title, h5 {
+  color: orange;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+.card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+p {
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  text-align: center; }
+
+.color {
+  color: black;
+  background-color: rgba(255, 255, 0, 0.579);
+  margin: 10px; }
+
+.color1 {
+  color: black;
+  background-color: rgba(255, 0, 0, 0.656);
+  margin: 10px; }
+
+.color2 {
+  background-color: black; }
+
+.footer {
+  background-color: black; }
+
+.buttons {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around; }
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out; }
+    .buttons a:hover {
+      transform: scale(1.4); }
+
+li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: whitesmoke; }
+  li a:hover {
+    text-decoration: none;
+    color: orange; }
+
+footer {
+  background: #200b0b;
+  background: linear-gradient(90deg, #200b0b 36%, #0e2e30 80%);
+  color: whitesmoke;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.redes-sociales {
+  flex: 1 1 300px;
+  margin-right: 2rem;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto; }
+  .redes-sociales h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  .redes-sociales a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    transition: all 0.2s; }
+    .redes-sociales a:hover {
+      opacity: 0.9;
+      width: 45px;
+      height: 41px; }
+
+.frases-motivacion {
+  flex: 300px;
+  margin-right: 2rem;
+  margin: 10px; }
+  .frases-motivacion h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  .frases-motivacion p {
+    font-size: 1.2rem;
+    margin-top: 1rem; }
+
+.mapa {
+  flex: 1 1 500px; }
+  .mapa h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+
+.body1 {
+  background-image: url(../assets/img/body1.jpg); }
+
+.servicio {
+  display: flex;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  padding: 0 20px; }
+
+.icono img {
+  width: 70vh;
+  height: 40vh;
+  border-radius: 25%;
+  padding: 25px;
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .icono img:hover {
+    transform: scale(1);
+    filter: grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+
+.main1 {
+  background-image: url(/assets/img/body2.jpg);
+  background-position: center;
+  width: 100%; }
+  .main1 h1 {
+    padding-top: 30px;
+    margin-bottom: 30px; }
+
+.form {
+  height: 70vh;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #200b0b;
+  background: linear-gradient(90deg, #200b0b 36%, #0e2e30 80%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px black;
+  text-align: center; }
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: whitesmoke; }
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: whitesmoke;
+  color: #333333; }
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #076280b7;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; }
+  input[type="submit"]:hover {
+    background-color: #07b5ef; }
+
+.boton-volver {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #06c;
+  cursor: pointer;
+  text-decoration: none; }
+  .boton-volver:hover {
+    color: #07b5ef; }
+
+.aref {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px; }
+  .aref a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: whitesmoke;
+    border-radius: 10%;
+    padding: 10px 10px; }
+
+.body2 {
+  margin: 0;
+  padding: 0;
+  background-color: #EDECEA;
+  background-image: none;
+  height: 100%; }
+
+img {
+  width: 48vh; }
+
+.contenedor {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center; }
+
+.letra {
+  font-size: 4rem;
+  color: black; }
+
+.letra1 {
+  font-size: 1.5rem;
+  color: black; }
+
+.boton {
+  width: 167px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: solid;
+  background: #200b0b;
+  background: linear-gradient(90deg, #200b0b 36%, #0e2e30 80%);
+  transition: all 1s; }
+  .boton a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600; }
+  .boton:hover {
+    width: 200px; }
+
+/*Index*/
+@media screen and (max-width: 320px) {
+  .producto, .producto1, .producto2, .producto3, .producto4 {
+    transition: none; }
+    .producto:hover, .producto1:hover, .producto2:hover, .producto3:hover, .producto4:hover {
+      background-image: none;
+      height: 30px; } }
+
+@media screen and (max-width: 1024px) {
+  .producto, .producto1, .producto2, .producto3, .producto4 {
+    transition: none; }
+    .producto:hover, .producto1:hover, .producto2:hover, .producto3:hover, .producto4:hover {
+      background-image: none;
+      height: 30px; } }
+
+/* Servicio*/
+@media screen and (max-width: 320px) {
+  .servicio {
+    display: flex;
+    flex-direction: column; }
+  .icono img {
+    height: 35vh;
+    width: 55vh; } }
+
+/* Registro*/
+@media screen and (min-width: 320px) {
+  .form {
+    width: 90%; }
+  .aref a {
+    font-size: 1.1rem; } }
+
+@media screen and (max-width: 1024px) {
+  .form {
+    width: 90%; }
+  .aref {
+    padding-top: 60px;
+    margin-top: 60px; } }
